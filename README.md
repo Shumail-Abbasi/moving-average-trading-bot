@@ -1,5 +1,3 @@
-# moving-average-trading-bot
-
 # 📈 AI Paper Trading Bot (Crypto)
 
 ## Overview
