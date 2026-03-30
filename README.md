@@ -85,9 +85,10 @@ The bot will immediately begin fetching data and monitoring the markets accordin
 
 ## 📊 Example Trade Log
 
-trade_id	symbol	position	entry_price	exit_price	profit	balance
-1	BTCUSDT	LONG	40000	40500	+500	1500
-2	ETHUSDT	SHORT	2000	1950	+250	1750
+| trade_id | symbol | position | entry_price | exit_price | profit | balance |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | BTCUSDT | LONG | 40000 | 40500 | +500 | 1500 |
+| 2 | ETHUSDT | SHORT | 2000 | 1950 | +250 | 1750 |
 
 ## ⚠️ Important Notes
 
