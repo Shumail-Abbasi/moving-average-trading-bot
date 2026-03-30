@@ -67,3 +67,38 @@ trading_bot/
 ```bash
 git clone [https://github.com/yourusername/trading-bot.git](https://github.com/yourusername/trading-bot.git)
 cd trading-bot
+```
+
+**2. Install dependencies**
+
+
+```Bash
+pip install pandas numpy python-binance
+```
+
+**▶️ Usage**
+Run the bot from the root directory:
+```Bash
+python main.py
+```
+The bot will immediately begin fetching data and monitoring the markets according to your strategy.py settings.
+
+**📊 Example Trade Log**
+
+trade_id	symbol	position	entry_price	exit_price	profit	balance
+1	BTCUSDT	LONG	40000	40500	+500	1500
+2	ETHUSDT	SHORT	2000	1950	+250	1750
+**⚠️ Important Notes**
+
+  *  **Educational Use Only:** This bot is a simulation tool.
+  *  **No Capital Risk:** It does not connect to a live wallet or use real funds.
+  *  **No API Keys Required:** Uses public Binance endpoints for market data.
+  *  **Strategy Alpha:** The included strategies are basic examples and are not guaranteed to be profitable.
+
+**🛠️ Future Improvements**
+
+  *  **Backtesting Engine:** Simulate strategies against historical data.
+  *  **Visual Dashboard:** Real-time equity curve using Matplotlib or Plotly.
+  *  **Advanced Indicators:** Add RSI, MACD, and Bollinger Bands.
+  *  **AI Integration:** Use Scikit-Learn or TensorFlow for predictive signal generation.
+  *  **Optimization:** Parameter grid search to find the best MA windows.
