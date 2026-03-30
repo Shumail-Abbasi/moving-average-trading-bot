@@ -57,7 +57,7 @@ trading_bot/
 ├── paper_trader.py    # Simulated execution & risk rules
 ├── logger.py          # CSV handling & performance tracking
 └── trades.csv         # Local trade database
-
+```
 ---
 
 ## ⚙️ Installation
